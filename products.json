@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "Camera",
+    "model": "Canon sf 123",
+    "manufacturer": "Canon",
+    "in_store": "False",
+    "image": "photos/rsz_canon_sf_123.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Camera",
+    "model": "Sony ss 123",
+    "manufacturer": "Sony",
+    "in_store": "True",
+    "image": "photos/rsz_sony_ss_123.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Laptop",
+    "model": "Asus 123",
+    "manufacturer": "Asus",
+    "in_store": "True",
+    "image": "photos/rsz_1asus_123.jpg"
+  },
+  {
+    "id": 4,
+    "category": "Laptop",
+    "model": "HP 123",
+    "manufacturer": "HP",
+    "in_store": "False",
+    "image": "photos/rsz_hp_123.jpg"
+  },
+  {
+    "id": 5,
+    "category": "Phone",
+    "model": "Samsung GSII",
+    "manufacturer": "Samsung",
+    "in_store": "False",
+    "image": "photos/samsung_gs11.jpg"
+  },
+  {
+    "id": 6,
+    "category": "Phone",
+    "model": "Iphone 5",
+    "manufacturer": "Apple",
+    "in_store": "True",
+    "image": "photos/rsz_iphone_5.jpg"
+  }
+]
