@@ -1,4 +1,4 @@
-let shop = document.getElementById("#shop");
+let shop = document.getElementById("shop");
 
 fetch("products.json")
   .then((res) => res.json())
@@ -6,8 +6,7 @@ fetch("products.json")
     products.map((product) => {
       let productElement = document.createElement("div");
 
-      productElement.innerHTML = `
-      
+      productElement.innerHTML = ` 
         <div class="product-card">
           <img src="${product.image}"/>
           <div class="description">
@@ -22,7 +21,6 @@ fetch("products.json")
             <p> In store: ${product.in_store}</p>
           </div>
         </div>`;
-      console.log(productElement);
 
       shop.append(productElement);
     });
